@@ -25,5 +25,5 @@ def run_microservice():
         # Process data and interact with Redis if needed
         redis_client.set('some_key', json.dumps(data))
 
-if __name__ == "__main__":
+if __name__ == "__mai_n_":
     run_microservice()
