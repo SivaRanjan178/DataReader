@@ -4,7 +4,7 @@ import json
 
 # Connect to Redis
 redis_client = StrictRedis(
-    host='localhost',
+    host='redis.finvedic.in',
     port=6379,
     db=0
 )
